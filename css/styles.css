@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 75px;
+    
+}
+/* header img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 450px;
+} */
+
+header nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    width: 400px;
+}
+
+main{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section{
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.primero{
+    background-image: url(../img/delivery.jpg);
+}
+
+main section p{
+    font-size: 24px;
+    font-weight: 700px;
+    color: #FC200C;
+    line-height: 28px;
+}
+
+main section p span{
+    color: white;
+}
+
+main section .podio{
+    background-color: #E5E5E5;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section h3{
+    font-size: 24px;
+    font-weight: 700px;
+    color: #FC200C;
+    position: relative;
+    
+}
+
+main section.podio div.segundo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+main section.podio div.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main section.podio div.top h5{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 23px;
+}
+
+main section.podio div.top ol li{
+    margin: 10px;
+    /* esto lo pongo yo */
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+footer{
+    background-color: #222222;
+    padding: 10px 20px 10px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction:column;
+    list-style: none;
+}
+
+footer nav ul li{
+    margin: 5px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 18.75px;
+    color: #F3F3F3;
+}
+ 
+
